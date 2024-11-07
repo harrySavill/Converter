@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversion</title>
+    <link rel="stylesheet" href="conversion-style.css">
+</head>
+<body>
+    <h1>Unit Converter</h1>
+    <section class="units-section">
+        <div class="button-div">
+            <button class="length">Length</button>
+            <button class="temperature">Temperature</button>
+            <button class="area">Area</button>
+            <button class="volume">Volume</button>
+            <button class="weight">Weight</button>
+            <button class="time">Time</button>
+        </div>
+        <div class="units-div">
+            <div class="units-left">
+                <h3>From:</h3>
+                <input class="units-input" type="text" name="input-from" id="input-from">
+                <select class="units-select" id="select-from"></select>
+            </div>
+            <div class="units-right">
+                <h3>To:</h3>
+                <input disabled class="units-input" type="text" name="input-to" id="input-to">
+                <select class="units-select" id="select-to"></select>
+            </div>
+    </div>
+    </section>
+    <section class="buttons-section">
+        <div class="currency">
+            <h2>Currency</h2>
+            <button onclick="location.href='currency.html'">Go to Currency Converter</button>
+        </div>
+    </section>
+    <script src="conversion.js"></script>
+</body>
+</html>

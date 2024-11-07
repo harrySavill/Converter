@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="currency-style.css">
+</head>
+<body>
+    <header>
+        <h1>Currency Converter</h1>
+    </header>
+    <section class="converter-section">
+        <div class="converter-div">
+            <div class="converter-left">
+                <h3>Amount:</h3>
+                <input class="currency-input" type="text" name="input-from" id="input-from">
+                <select class="currency-select" id="select-from">
+                    <option value="GBP">British Pound (GBP)</option>
+                    <option value="USD">US Dollar (USD)</option>
+                    <option value="EUR">Euro (EUR)</option>
+                    <option value="JPY">Japanese Yen (JPY)</option>
+                    <option value="AUD">Australian Dollar (AUD)</option>
+                    <option value="CAD">Canadian Dollar (CAD)</option>
+                    <option value="CHF">Swiss Franc (CHF)</option>
+                    <option value="CNY">Chinese Yuan (CNY)</option>
+                    <option value="SEK">Swedish Krona (SEK)</option>
+                    <option value="NZD">New Zealand Dollar (NZD)</option>
+                    <option value="MXN">Mexican Peso (MXN)</option>
+                    <option value="THB">Thai Baht (THB)</option>
+                    <option value="TRY">Turkish Lira (TRY)</option>                    
+                    <option value="AED">UAE Dirham (AED)</option>
+                    <option value="BRL">Brazilian Real (BRL)</option>
+                </select>
+            </div>
+            <div class="converter-right">
+                <h3>Converted Amount:</h3>
+                <input disabled class="currency-input" type="text" name="input-to" id="input-to">
+                <select class="currency-select" id="select-to">
+                    <option value="USD">US Dollar (USD)</option>
+                    <option value="GBP">British Pound (GBP)</option>
+                    <option value="EUR">Euro (EUR)</option>
+                    <option value="JPY">Japanese Yen (JPY)</option>
+                    <option value="AUD">Australian Dollar (AUD)</option>
+                    <option value="CAD">Canadian Dollar (CAD)</option>
+                    <option value="CHF">Swiss Franc (CHF)</option>
+                    <option value="CNY">Chinese Yuan (CNY)</option>
+                    <option value="SEK">Swedish Krona (SEK)</option>
+                    <option value="NZD">New Zealand Dollar (NZD)</option>
+                    <option value="MXN">Mexican Peso (MXN)</option>
+                    <option value="THB">Thai Baht (THB)</option>
+                    <option value="TRY">Turkish Lira (TRY)</option>
+                    <option value="AED">UAE Dirham (AED)</option>
+                    <option value="BRL">Brazilian Real (BRL)</option>
+                </select>
+            </div>
+        </div>
+    </section>
+    <section class="navigation-section">
+        <div class="conversion">
+            <h2>Unit Converter</h2>
+            <button onclick="location.href='conversion.html'">Go to Unit Converter</button>
+        </div>
+    </section>
+    <script src="currency.js"></script>
+</body>
+</html>

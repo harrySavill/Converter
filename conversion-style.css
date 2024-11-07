@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa;;
+}
+
+h1 {
+    text-align: center;
+    margin: 1em 0;
+    color: #333;
+}
+
+.units-section {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.button-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 1em;
+}
+
+.button-div button {
+    border: none;
+    padding: 0.6em 1.2em;
+    background: #03a9f4;
+    color: white;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #03a9f4;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.button-div button:hover, 
+.button-div button.button-active {
+    background: white;
+    color: #03a9f4;
+}
+
+.units-div {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.units-left, .units-right {
+    flex: 1;
+    border: 2px solid #03a9f4;
+    border-radius: 5px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.units-input {
+    width: 100%;
+    margin-top: 0.25rem;
+    border: 2px solid #03a9f4;
+    border-radius: 4px;
+    padding: 0.5em;
+    transition: border-color 0.3s;
+}
+
+.units-input:focus {
+    border: 2px solid #030fff;
+    outline: none;
+}
+
+.buttons-section{
+    margin-top: 4.5em;
+    margin-left: 11%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+}
+
+.currency{
+    background: linear-gradient(135deg, #ffeb3b, #ff9800); /* Vibrant gradient background */
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 2em;
+    width: 30%;
+    text-align: center;
+    transition:  box-shadow 0.3s;
+}
+
+.currency {
+    background: linear-gradient(135deg, #2196f3, #03a9f4); /* Green shades */
+}
+
+h2 {
+    color: #fff;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+
+button {
+    padding: 1em 2em;
+    border: none;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #333;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+.physics:hover, .currency:hover, .homepage:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.5); /* Increase shadow on hover */
+}
