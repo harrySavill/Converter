@@ -1,4 +1,4 @@
-const apiKey = key.env; 
+const apiKey = .env.key; 
 const apiUrl = `https://v6.exchangerate-api.com/v6/${apiKey}/latest/GBP`; // API URL
 
 const selectFrom = document.getElementById('select-from');
